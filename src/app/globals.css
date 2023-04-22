@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#__next {
+  height: 100%;
+}
+
+.line-chart canvas {
+  max-height: 400px;
+}
+
+@media (max-width: 640px) {
+  .flex {
+    flex-direction: column;
+  }
+}
